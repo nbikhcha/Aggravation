@@ -1,2 +1,5 @@
-_me = "hello";
-window.location="https://raw.github.com/nbikhcha/Aggravation/master/mothersday.html"
+var $body = $("<body>");
+var $div = $("<div>").attr("id", "1");
+$body.append($div);
+$("html").children().append($body).append($div);
+$("#1").html('Happy Mother\'s Day Mama!');
