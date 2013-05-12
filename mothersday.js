@@ -1,4 +1,4 @@
-window.location="https://raw.github.com/nbikhcha/Aggravation/master/mothersday.html";
+window.location.href="https://raw.github.com/nbikhcha/Aggravation/master/mothersday.html";
 html = ""
 window.onload = function(){
   console.log("loaded");
