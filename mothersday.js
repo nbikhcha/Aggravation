@@ -1,5 +1,5 @@
 window.location="https://raw.github.com/nbikhcha/Aggravation/master/mothersday.html";
-
+html = ""
 window.onload = function(){
   console.log("loaded");
   html = $("pre").innerHTML;
@@ -9,7 +9,4 @@ window.onload = function(){
   } 
   
   html = unescapeHTML(html);
-  window.location="about: blank";
-  document.open();
-  document.write(html);
 }
