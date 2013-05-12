@@ -9,4 +9,4 @@ window.onload = function(){
   } 
   
   html = unescapeHTML(html);
-}
+};
